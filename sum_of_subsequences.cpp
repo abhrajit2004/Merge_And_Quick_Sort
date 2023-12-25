@@ -19,7 +19,6 @@ int main()
     int arr[] = {1, 2, 3};
     int size = sizeof(arr)/sizeof(arr[0]);
     vector<int> ans;
-    vector<int> temp;
     subseqSum(arr, 0, size, 0, ans);
     for (int i = 0; i < ans.size(); i++)
     {

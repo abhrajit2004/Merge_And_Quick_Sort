@@ -13,8 +13,8 @@ int perfectSum(int arr[], int index, int n, int target)
 
 int main()
 {
-    int arr[] = {1, 0};
+    int arr[] = {2, 5, 6, 1, 3};
     int size = sizeof(arr)/sizeof(arr[0]);
-    cout << perfectSum(arr, 0, size, 1);
+    cout << perfectSum(arr, 0, size, 8);
     return 0;
 }
